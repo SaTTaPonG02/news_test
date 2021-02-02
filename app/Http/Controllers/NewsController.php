@@ -42,7 +42,10 @@ class NewsController extends Controller
                 ',
             );
             $i++; 
-        }
+        }  
+
+
+        
         // dd($news_category);
         echo json_encode($data);
     }
